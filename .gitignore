@@ -1,0 +1,17 @@
+# Personal files - not part of the project
+CV/
+pobrane*.jpg
+portfolio/zrodlo/
+
+# Earlier desktop app (Python) - kept locally, not published
+dr3_studio/
+
+# Arduino build output
+build/
+
+# KiCad local state and backups
+dr3/.history/
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
