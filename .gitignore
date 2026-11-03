@@ -1,0 +1,9 @@
+# Arduino build output
+build/
+
+# KiCad local state and backups
+dr3/.history/
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
