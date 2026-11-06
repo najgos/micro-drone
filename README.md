@@ -6,8 +6,6 @@ DR3 is a micro drone built from scratch: a custom PCB flight controller designed
 C++ firmware for the drone (Seeed XIAO ESP32-C6) and the hand-held remote (ESP32).
 Both boards calibrate themselves at power-up; the flight controller gains are defined in `config.h`.
 
-📄 **Project overview (PDF):** [portfolio/DR3_portfolio.pdf](portfolio/DR3_portfolio.pdf)
-
 ## System overview
 
 | Part | Hardware | Role |
@@ -93,5 +91,4 @@ stick ranges) are in `config.h`.
 firmware/dr3/   drone and remote firmware (C++)
 dr3/            KiCad project and Gerber files
 docs/images/    photos and the KiCad screenshot used here
-portfolio/      project overview PDF
 ```
