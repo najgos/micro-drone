@@ -31,7 +31,7 @@ void beginOutputs() {
 }
 
 bool linkFresh() { return peerKnown && uint32_t(millis() - peerSeen) <= LINK_TIMEOUT_MS; }
-// Conditions for running the motors, checked continuously (USB blocks the motors: shared 5 V rail).
+// Conditions for running the motors, checked continuously (the motors stay off while USB is connected).
 bool canOperate(bool imuValid) {
   return !bool(Serial) && imuValid && gyroCalibrated && attitude.valid && pwmOK && linkFresh() && controlInput.calibrated;
 }
