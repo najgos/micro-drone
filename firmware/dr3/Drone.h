@@ -1,6 +1,5 @@
 #pragma once
 // DRONE – Seeed XIAO ESP32-C6 on the DR3 board.
-// USB VBUS and the motor supply share the 5 V rail on this board.
 #include "Imu.h"
 #include "Attitude.h"
 
@@ -91,8 +90,8 @@ void droneSetup() {
   for (uint8_t pin : MOTOR_PINS) { digitalWrite(pin, LOW); pinMode(pin, OUTPUT); }   // motors off from the first moment
   pinMode(DRONE_LED_PIN, OUTPUT);
   Serial.begin(115200);                          // needed to detect a USB connection
-  digitalWrite(3, LOW); pinMode(3, OUTPUT);      // enable the XIAO RF switch
-  digitalWrite(14, LOW); pinMode(14, OUTPUT);    // built-in antenna
+  digitalWrite(RF_SWITCH_PIN, LOW); pinMode(RF_SWITCH_PIN, OUTPUT);              // enable the RF switch
+  digitalWrite(ANTENNA_SELECT_PIN, LOW); pinMode(ANTENNA_SELECT_PIN, OUTPUT);    // built-in antenna
   radioOK = startRadio();
   beginOutputs();
   if (Wire.begin(IMU_SDA, IMU_SCL, 100000)) { Wire.setTimeOut(10); imuOK = beginImu(); }

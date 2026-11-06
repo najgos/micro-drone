@@ -18,6 +18,8 @@ constexpr uint8_t MOTOR_PINS[4] = {0, 1, 2, 21};   // XIAO: D0, D1, D2, D3
 constexpr uint8_t IMU_SDA = 22, IMU_SCL = 23;        // XIAO: D4, D5
 constexpr uint8_t DRONE_LED_PIN = 15;                // XIAO yellow user LED
 constexpr bool DRONE_LED_ACTIVE_LOW = true;
+constexpr uint8_t RF_SWITCH_PIN = 3;                 // XIAO RF switch, LOW = enabled
+constexpr uint8_t ANTENNA_SELECT_PIN = 14;           // XIAO antenna select, LOW = built-in antenna
 
 // MPU6050 orientation relative to the frame: sensor -> body rotation matrix, row by row.
 // FRD body frame: X forward, Y right, Z down.
