@@ -23,7 +23,7 @@ sensor fusion · cascaded PID control
 ![PCB layout in KiCad](docs/images/pcb_layout_kicad.png)
 
 - 2-layer PCB, approx. 45.5 × 51 mm, designed in KiCad (schematic, layout, Gerber files)
-- 4 motor channels: N-MOSFET (SOT-23) low-side switches
+- 4 motor channels, each with an N-MOSFET (SOT-23) and an SS14 diode
 - Seeed XIAO ESP32-C6 module and MPU6050 (GY-521) IMU over I²C
 - 0805 / SOT-23 / SMA footprints; design and production files in [`dr3/`](dr3)
 
