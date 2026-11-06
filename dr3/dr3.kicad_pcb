@@ -1701,7 +1701,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1713,7 +1713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1726,7 +1726,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3551,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3563,7 +3563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3576,7 +3576,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4761,7 +4761,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4773,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4786,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6463,7 +6463,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6476,7 +6476,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
