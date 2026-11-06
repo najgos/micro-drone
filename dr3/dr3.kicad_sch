@@ -3219,7 +3219,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 105.41 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +3251,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3401,7 +3401,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 149.86 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3422,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3433,7 +3433,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5113,7 +5113,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 85.09 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +5134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 85.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5145,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 85.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5458,7 +5458,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "SS14"
 			(at 125.73 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +5479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "~"
 			(at 125.73 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5490,7 +5490,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "40V 1A Schottky barrier rectifier, SMA"
 			(at 125.73 58.42 0)
 			(hide yes)
 			(show_name no)
